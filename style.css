@@ -67,6 +67,10 @@ body {
   margin-bottom: 2%;
 }
 
+button:hover {
+  background-color: orange;
+}
+
 .socialMedia {
   padding-top: 3%;
   padding-bottom: 3%;
@@ -76,6 +80,11 @@ body {
   display: flex;
   flex-flow: rown wrap;
   justify-content: center;
+}
+
+li:hover,
+li a:hover {
+  color: lightskyblue;
 }
 
 li,
@@ -104,7 +113,7 @@ li a {
 }
 
 span {
-  background-color: rgba(128, 128, 128, 0.616);
+  background-color: rgba(128, 128, 128, 0.418);
 }
 
 .movies {
