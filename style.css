@@ -130,3 +130,16 @@ span {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+@media screen and (max-width: 800px) {
+  .intro,
+  .socialMedia,
+  .movies {
+    width: 80%;
+  }
+
+  li,
+  li a {
+    font-size: large;
+  }
+}
