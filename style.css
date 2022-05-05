@@ -26,7 +26,6 @@ body {
 
 .intro {
   margin-top: 3%;
-  height: 450px;
 }
 
 .intro img {
@@ -62,6 +61,8 @@ body {
   background-color: rgba(224, 85, 85, 255);
   padding: 1.5%;
   border-radius: 5%;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .intro a:hover {
